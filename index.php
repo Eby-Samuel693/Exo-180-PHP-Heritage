@@ -6,10 +6,9 @@ require './appart.php';
 
 
 $maison1 = new maison();
+$maison2 = new maison();
 
-echo $maison1->setJardin('2');
-
-$maison2 = new maison('france','feron','59610',1,3);
+$appart = new appart();
 
 /**
  * 1. Créez une classe Habitation, elle contiendra les propriétés:

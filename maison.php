@@ -2,9 +2,8 @@
 
 class maison extends Habitation
 {
-    public function __construct(string $pays, string $ville, string $codePostal, int $chambres, int $pieces,bool $jardin,int $etages,bool $garage)
+    public function __construct(bool $jardin,int $etages,bool $garage)
     {
-        parent::__construct($pays, $ville, $codePostal, $chambres, $pieces);
         $this->setJardin($jardin);
         $this->setEtages($etages);
         $this->setGarage($garage);
